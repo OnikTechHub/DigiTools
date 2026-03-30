@@ -5,9 +5,15 @@ import Banner from './component/Banner/Banner'
 import StatsSection from './component/StatsSection/StatsSection'
 import Footer from './component/Footer/Footer'
 import TransformSection from './component/TransformSection/TransformSection'
-import PricingSection from './component/PricingSection/PricingSection'
 import StepsSection from './component/StepsSection/StepsSection'
+import ProductList from "./component/ProductList/ProductList"
 
+const getProductList = async () => {
+  const res = await fetch("/data.json")
+  return res.json()
+}
+
+const productListPromise = getProductList()
 function App() {
  
 
@@ -16,8 +22,8 @@ function App() {
     <Navbar></Navbar>
     <Banner></Banner>
     <StatsSection></StatsSection>
+    <ProductList productListPromise={productListPromise}></ProductList>
     <StepsSection></StepsSection>
-    <PricingSection></PricingSection>
     <TransformSection></TransformSection>
     <Footer></Footer>
     </div>
