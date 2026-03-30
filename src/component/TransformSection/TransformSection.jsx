@@ -5,7 +5,7 @@ const TransformSection = () => {
         <div className="bg-linear-to-r from-indigo-500 to-purple-500 py-20 px-6">
             <div className="container mx-auto text-center text-primary-content">
 
-                <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight">
+                <h2 className="text-white text-3xl md:text-5xl font-bold mb-6 tracking-tight">
                    Ready to Transform Your Workflow?
                 </h2>
 

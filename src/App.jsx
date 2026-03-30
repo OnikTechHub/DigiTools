@@ -6,6 +6,7 @@ import StatsSection from './component/StatsSection/StatsSection'
 import Footer from './component/Footer/Footer'
 import TransformSection from './component/TransformSection/TransformSection'
 import PricingSection from './component/PricingSection/PricingSection'
+import StepsSection from './component/StepsSection/StepsSection'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
     <Navbar></Navbar>
     <Banner></Banner>
     <StatsSection></StatsSection>
+    <StepsSection></StepsSection>
     <PricingSection></PricingSection>
     <TransformSection></TransformSection>
     <Footer></Footer>
