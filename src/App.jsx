@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './component/Navbar'
 import Banner from './component/Banner/Banner'
+import StatsSection from './component/StatsSection/StatsSection'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
     <div>
     <Navbar></Navbar>
     <Banner></Banner>
+    <StatsSection></StatsSection>
     </div>
   )
 }
