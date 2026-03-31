@@ -41,7 +41,7 @@ Desktop 💻
 ---
 
 ## 🌐 Live Preview
-🔗 [Explore DigiTools Live](https://digitools-999.netlify.app/)
+🔗 https://digitools-999.netlify.app/
 
 ---
 
@@ -50,5 +50,5 @@ Developer: Onik Das
 Email: onikdas.dev@gmail.com
 ---
 
-🤝 Contribution
+## 🤝 Contribution
 If you like this project or want to improve it, feel free to contribute 😊
