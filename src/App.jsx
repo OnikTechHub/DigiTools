@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar carts={carts}></Navbar>
       <Banner></Banner>
       <StatsSection></StatsSection>
       <DigitalTools></DigitalTools>

@@ -40,9 +40,9 @@ const Navbar = ({carts}) => {
                         <div className="text-2xl ">
                             <LuShoppingCart />
                         </div>
-                        {/* <p className="font-semibold text-red-500 absolute -top-3 -right-2 ">
+                        <p className="font-semibold text-red-500 absolute -top-3 -right-2 ">
                             {carts.length}
-                        </p> */}
+                        </p>
                     </div>
 
                     <button className="btn rounded-2xl md:text-lg">Login</button>
