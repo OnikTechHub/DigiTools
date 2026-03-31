@@ -36,7 +36,7 @@ function App() {
       </div>
       {activeTab === "Products" && <ProductList productListPromise={productListPromise} carts={carts} setCarts={setCarts}></ProductList>}
 
-      {activeTab === "Cart" && <Card carts={carts}></Card>}
+      {activeTab === "Cart" && <Card carts={carts} setCarts={setCarts}></Card>}
       <StepsSection></StepsSection>
       <TransformSection></TransformSection>
       <Footer></Footer>
