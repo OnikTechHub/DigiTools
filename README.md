@@ -46,6 +46,9 @@ Desktop 💻
 ---
 
 ## 📬 Contact
-Feel free to reach out for collaborations or questions:
 Developer: Onik Das
 Email: onikdas.dev@gmail.com
+---
+
+🤝 Contribution
+If you like this project or want to improve it, feel free to contribute 😊
