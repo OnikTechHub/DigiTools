@@ -1,10 +1,19 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ProductListCard = ({ product, carts, setCarts }) => {
     const [isAddToCard, setIsAddToCard] = useState(false)
     const heandleAddToCard = () => {
         setIsAddToCard(true)
+
+        const isFound = carts.find(item => item.id === product.id)
+        if(isFound) {
+            toast.error("Item already is cart!")
+            return
+        }
+
         setCarts([...carts, product])
+        toast.success("Item Add To Cart!")
     }
     return (
         <div className='bg-white border border-gray-100 rounded-2xl p-10 shadow-sm relative flex flex-col justify-between transition-all hover:shadow-md'>
@@ -42,7 +51,7 @@ const ProductListCard = ({ product, carts, setCarts }) => {
             </ul>
 
             <button onClick={heandleAddToCard} className='w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:opacity-90 border-none rounded-4xl text-white py-4 font-bold shadow-lg shadow-indigo-200 transition-all active:scale-[0.98]'>
-                {isAddToCard ? "Add To Card" : "Buy Now"}
+                {isAddToCard ? "Add To Cart" : "Buy Now"}
             </button>
         </div>
     );

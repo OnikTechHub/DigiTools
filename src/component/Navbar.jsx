@@ -1,10 +1,10 @@
 import React from 'react';
 import { LuShoppingCart } from 'react-icons/lu';
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
     return (
-        <div>
-            <nav className="navbar w-11/12  mx-auto bg-base-100 border-b border-base-200 px-4 md:px-1">
+        <div className='sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-base-200'>
+            <nav className="navbar w-11/12  mx-auto px-4 md:px-1 ">
 
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -41,7 +41,7 @@ const Navbar = () => {
                             <LuShoppingCart />
                         </div>
                         {/* <p className="font-semibold text-red-500 absolute -top-3 -right-2 ">
-                            {cartItem.length}
+                            {carts.length}
                         </p> */}
                     </div>
 
