@@ -5,7 +5,7 @@ import rocket from "../../assets/products/rocket.png"
 
 const StepsSection = () => {
     return (
-        <div className='bg-gray-100 my-20'>
+        <div className='bg-gray-100 '>
             <div className='w-10/12 mx-auto text-center py-10'>
                 <div className="mb-16 space-y-3">
                     <h2 className="text-4xl md:text-5xl font-bold text-base-content tracking-tight">

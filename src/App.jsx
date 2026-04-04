@@ -9,6 +9,7 @@ import StepsSection from './component/StepsSection/StepsSection'
 import ProductList from "./component/ProductList/ProductList"
 import Card from './component/ProductList/Card'
 import DigitalTools from './component/DigitalTools/DigitalTools'
+import PricingSection from './component/PricingSection/PricingSection'
 
 const getProductList = async () => {
   const res = await fetch("/data.json")
@@ -38,6 +39,7 @@ function App() {
 
       {activeTab === "Cart" && <Card carts={carts} setCarts={setCarts}></Card>}
       <StepsSection></StepsSection>
+      <PricingSection></PricingSection>
       <TransformSection></TransformSection>
       <Footer></Footer>
     </div>
