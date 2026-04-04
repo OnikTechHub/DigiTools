@@ -41,7 +41,7 @@ Desktop 💻
 ---
 
 ## 🌐 Live Preview
-🔗 https://digitools-999.netlify.app/
+🔗 https://digitools999.netlify.app/
 
 ---
 
